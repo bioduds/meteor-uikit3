@@ -1,18 +1,18 @@
 
-Version: UIKit3.0.0-beta.5
+## Version: UIKit3.0.0-beta.6
 
-Downloaded from: https://getuikit.com/download
+Downloaded from: https://getuikit.com/download at January 27, 2017.
 
 Documentation: https://getuikit.com/docs/introduction
 
-Troubleshooting: email bioduds@gmail.com
+Troubleshooting: email me at bioduds@gmail.com
 
 If you get an error on install, try
 
-npm install jquery
+#### npm install jquery
 
 or
 
-meteor npm install jquery --save
+#### meteor npm install jquery --save
 
 Cheers.

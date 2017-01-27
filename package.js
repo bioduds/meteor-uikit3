@@ -1,8 +1,8 @@
 Package.describe({
   name: 'bioduds:uikit3',
-  version: '1.1.0',
+  version: '1.1.1',
   // Brief, one-line summary of the package.
-  summary: 'UIKit Version 3.0.0 beta 5 release',
+  summary: 'UIKit Version 3.0.0 beta 6 release',
   // URL to the Git repository containing the source code for this package.
   git: 'https://github.com/bioduds/meteor-uikit3.git',
   // By default, Meteor will default to using README.md for documentation.
