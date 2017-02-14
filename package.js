@@ -1,8 +1,8 @@
 Package.describe({
   name: 'bioduds:uikit3',
-  version: '1.1.1',
+  version: '1.1.4',
   // Brief, one-line summary of the package.
-  summary: 'UIKit Version 3.0.0 beta 6 release',
+  summary: 'UIKit Version 3.0.0 beta 10 release',
   // URL to the Git repository containing the source code for this package.
   git: 'https://github.com/bioduds/meteor-uikit3.git',
   // By default, Meteor will default to using README.md for documentation.
@@ -16,34 +16,10 @@ Package.onUse(function(api) {
   api.addFiles([
     'js/uikit.min.js',
     'css/uikit.min.css',
+    'css/uikit.rtl.min.css',
   ],['client']);
   api.addAssets([
-    'images/accordion-close.svg',
-    'images/close-large.svg',
-    'images/divider-icon.svg',
-    'images/form-checkbox.svg',
-    'images/form-select.svg',
-    'images/list-bullet.svg',
-    'images/nav-parent-close.svg',
-    'images/overlay.svg',
-    'images/pagination-previous.svg',
-    'images/search-large.svg',
-    'images/slidenav-large-next.svg',
-    'images/slidenav-next.svg',
-    'images/spinner.svg',
-    'images/accordion-open.svg',
-    'images/close.svg',
-    'images/form-checkbox-indeterminate.svg',
-    'images/form-radio.svg',
-    'images/icons.svg',
-    'images/navbar-toggle.svg',
-    'images/nav-parent-open.svg',
-    'images/pagination-next.svg',
-    'images/search-default.svg',
-    'images/search-navbar.svg',
-    'images/slidenav-large-previous.svg',
-    'images/slidenav-previous.svg',
-    'images/totop.svg',
+    'images/icons.svg'
   ], ['client']);
 });
 
